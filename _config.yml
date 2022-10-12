@@ -13,13 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: "mmistakes/so-simple-theme@3.2.0" 
+#remote_theme: "mmistakes/so-simple-theme@3.2.0" 
+remote_theme: "abhinavs/cookie"
 
 # skin: "/assets/css/skins/default.css"
 # locale: en-US
 # title: "My Awesome Site"
 # description: "It really is the best."
-# baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "/postils-website" # the subpath of your site, e.g. "/blog"
 # url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # logo: # path of site logo, e.g. "/images/logo.png"
 # date_format: "%B %-d, %Y"
@@ -74,10 +75,12 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 # #   - vendor/ruby/
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-postcss
+  - jekyll-soopr-seo-tag
+  - jekyll-sitemap
+  - jekyll-minifier
+
 
 # # Front Matter Defaults
 # defaults:
