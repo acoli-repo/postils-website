@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 #remote_theme: "mmistakes/so-simple-theme@3.2.0" 
-# remote_theme: "abhinavs/cookie"
+remote_theme: "abhinavs/cookie"
 
-remote_theme: MichaelCurrin/jekyll-theme-quickstart
+#remote_theme: MichaelCurrin/jekyll-theme-quickstart
 
 plugins:
   - jekyll-remote-theme
