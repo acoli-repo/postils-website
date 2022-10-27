@@ -1,7 +1,7 @@
 *.gem
 
 .bundle/
-vendor/
+#vendor/
 
 .jekyll-cache/
 .sass-cache
